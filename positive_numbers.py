@@ -1,6 +1,6 @@
 #TASK 2
 #to print all positive numbers in a range
-list1=eval(input("Enter numbers: :"))
+list1=int(input("Enter numbers: :"))
 for num in list1:
     if num>=0:
         print(num, end= '  ')
